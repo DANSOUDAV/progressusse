@@ -1,0 +1,75 @@
+/*ici se passe la mise en forme et la finission*/
+a{
+    text-decoration: none;
+}
+.list_menu a{
+    margin-left: 10px;
+    color: RGBa(215, 215, 215,0.4);
+}
+.list_menu i{
+    font-size: 10px;
+}
+.list_menu .carre{
+    border: RGBa(215, 215, 215,0.4) 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+}
+.list_menu .active{
+    color: white;
+}
+.list_menu .carre:hover{
+    color: white;
+    border: white 1px solid;
+    border-radius: 3px;
+}
+.list_menu a:hover{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: RGB(89, 89, 255);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn{
+    border: RGBa(215, 215, 215,0.4) 3px solid;
+    border-radius: 3px;
+    padding: 10px;
+}
+.btn a{
+    color:RGBa(215, 215, 215,0.4) ;
+}
+.btn a:hover{
+    text-decoration: none;
+}
+.boutonActive{
+    background-color:rgb(255,128,0);
+    padding: 10px;
+    border: RGB(215, 215, 215) 1px solid;
+    border-radius: 3px;
+}
+.boutonActive:hover{
+    background-color: RGBa(255, 128, 0,0.9);
+}
+.boutonActive a{
+    color: white;
+}
+.boutonActive a:hover{
+    text-decoration: none;
+}
+.bnt:hover{
+    color: white;
+}
+
+.reasons i{
+    font-size: 50px;
+    color:RGB(68, 68, 68);
+}
+.reasons .titre_colonne{
+    color: RGB(68, 68, 68);
+}
+.footer1 a, .footer2 a{
+    color: white;
+}

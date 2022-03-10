@@ -1,0 +1,266 @@
+/* je commence avec  la disposition des élements */
+body{
+    margin: 0;
+
+}
+
+/*les element de la barre des menus du haut */
+#menu_enTete{
+    position: fixed;
+    z-index: 1000;
+    top: 0; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: rgba(91, 91, 91, 0.9) solid 1px;
+        
+}
+                    /*le logo de la liste*/
+.logo_menu{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+                   /*le menu */
+.list_menu{
+    position:absolute;
+    right: 100px;
+    top: 40px;
+}
+
+/* commençons avec le header*/
+header{
+    background-image: url("../images/bg_header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    z-index: 100;
+  position: relative;
+   padding-bottom: 570px;
+   top: 50px;
+}
+header h1{
+    position: absolute;
+    left: 30%;
+    top: 60%
+}
+                  /*paragraphe 2*/
+header p{
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+                       /*les deux bouton*/
+#bouton{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    display: flex;
+}
+.btn{
+    margin-right: 5px;
+}
+
+/*on commencen  avec la section le 1er block*/
+section{
+    background-color: white;
+    color: RGBa(42, 42, 42,0.8);
+    padding-bottom: 5%;
+}
+
+/*le 1er block du section*/
+.the{
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.para{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.reasons{
+    background-color: RGBa(201, 201,201,0.2);
+    position: relative;
+    top: 30px;
+    padding-top: 5%;
+    text-align: center;
+   
+   
+}
+.colonne4{
+    display: flex;
+    margin: 4%;
+}
+
+/*l'element frequently*/
+.frenquently{
+    position: relative;
+}
+.frenquently h3{
+    font-size: 30px;
+    text-align: center;
+}
+.colonnes1e2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.colonne3e4{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+       /*ceci c'est pour les phrases de poid foid*/
+.para12{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/*l'element dicta*/
+.dicta{
+    position: relative;
+    background-color: RGBa(201, 201,201,0.2);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.lien1{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+/*j'en suis au footer*/
+footer{
+    position: relative;
+    color: white;
+    background-color: rgb(42, 42, 42);
+}
+.footer1{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.tex{
+    padding-left: 150px;
+}
+.follow{
+    padding-left: 100px;
+}
+.follow ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.footer2{
+    background-color: RGB(48, 48,48);
+    font-family: "Times New Roman";
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.menuFooter ul{
+    display: flex;
+    list-style-type: none;
+}
+.menuFooter li{
+    margin-left: 10px;
+    
+}
+.barre{
+    border-right: rgb(58, 58, 58) 2px solid;
+    
+}
+
+#sect{
+    position: relative;
+    top: 93px;
+    display: flex;
+    padding-bottom: 150px;
+}
+.image img{
+    font-size: 25px;
+    height: 200px;
+}
+.image{
+    position: relative;
+    top: 50px;
+}
+.lorem{
+  display: flex;
+}
+#article{
+    margin-left: 10%;
+    position: relative;   
+}
+#article h2,#article2 h2{
+    padding-bottom: 10px;
+    font-size: 50px;
+    border-bottom: RGBa(42, 42, 42,0.1) 1px solid;
+}
+#article h3{
+    font-size: 30px;
+}
+aside{
+    position: relative;
+    margin-left: 3%;
+    height: 50%;
+    top: 50px;
+    margin-right: 10%;
+    width: 80%;
+}
+
+/*la page contact*/
+#formulaire{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+input ,textarea{
+    padding: 7px;
+    border: RGBa(42, 42, 42,0.3) 1px solid;
+    border-radius: 5px;
+}
+
+.fin_formul{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+/**/
+#sect2{
+    position: relative;
+    top: 80px;
+    padding-bottom: 150px;
+}
+#article2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.signin{
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border:  RGBa(42, 42, 42,0.3) 1px solid;
+    border-radius: 5px;
+    
+}
+.signin p,h3{
+    text-align: center;
+}
+.signin .long{
+    width: 500px;
+    margin-bottom: 5%;
+}
+.signin form{
+    border-top: RGBa(42, 42, 42,0.1) 1px solid;
+    padding-top: 5%;
+}
